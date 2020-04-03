@@ -1,0 +1,4 @@
+BMPImage.cpp: In constructor ‘BMPImage::BMPImage(const char*)’:
+BMPImage.cpp:31:67: warning: embedded ‘\0’ in format [-Wformat-contains-nul]
+     sprintf(buffer,"Failed to open bmp image %s\n\0",bmp_file_path);
+                                                                   ^
